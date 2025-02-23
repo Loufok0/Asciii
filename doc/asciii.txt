@@ -4,8 +4,9 @@
                         ASCIII ART PLUGIN POUR VIM
 ==============================================================================
 
-Dépendances: `figlet`
-Licence: MIT
+Auteur: Loufoko (loufoko@gmail.com)
+Version: 1.0
+Dépendances: `figlet` Licence: MIT
 
 ==============================================================================
 
