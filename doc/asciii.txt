@@ -1,11 +1,9 @@
-*asciiart.txt*     Plugin Vim ASCII Art         *asciiart*
+*asciii.txt*     Plugin Vim ASCII Art         *asciii*
 
 ==============================================================================
-                         ASCII ART PLUGIN POUR VIM
+                        ASCIII ART PLUGIN POUR VIM
 ==============================================================================
 
-Auteur: Ton Nom <ton.email@example.com>
-Version: 1.0
 Dépendances: `figlet`
 Licence: MIT
 
@@ -25,14 +23,16 @@ CONTENU:
 1. INTRODUCTION *asciiart-intro*
 
     Ce plugin Vim permet de transformer du texte en ASCII Art en utilisant `figlet`.
-    Le résultat est affiché dans un buffer temporaire. Il peut être utilisé pour
-    personnaliser des commentaires, des fichiers README, ou simplement s'amuser.
+    Le résultat est affiché dans un buffer temporaire.
 
 ==============================================================================
 
 2. INSTALLATION *asciiart-install*
 
     Requis: `figlet` doit être installé sur votre système.
+
+    - Sous Arch Linux :
+      > sudo pacman -S figlet
 
     - Sous Linux (Debian/Ubuntu) :
       > sudo apt install figlet
@@ -41,7 +41,9 @@ CONTENU:
       > brew install figlet
 
     Installation du plugin :
-    - Placer `asciiart.vim` dans `~/.vim/plugin/`
+
+	- Ajouter "	Plug 'Loufok0/asciii'	" au .vimrc
+	- Executer :PlugInstall
     - Redémarrer Vim
 
 ==============================================================================
