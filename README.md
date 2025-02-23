@@ -8,7 +8,9 @@
 
 ---
 
-Auteur: Ton Nom [ton.email@example.com](mailto\:ton.email@example.com) Version: 1.0 Dépendances: `figlet` Licence: MIT
+Auteur: Loufoko (loufoko@gmail.com)
+Version: 1.0
+Dépendances: `figlet` Licence: MIT
 
 ---
 
